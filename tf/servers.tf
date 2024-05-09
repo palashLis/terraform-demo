@@ -49,6 +49,3 @@ resource "google_compute_instance" "demo-server" {
   tags                = ["http-server", "https-server"]
   deletion_protection = false
 }
-
-
-gcloud compute instances create my-instance --zone=us-central1-a --machine-type=n1-standard-1 --image=https://www.googleapis.com/compute/beta/projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20240110 --boot-disk-size=50GB
