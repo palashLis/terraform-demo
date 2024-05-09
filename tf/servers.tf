@@ -1,5 +1,5 @@
 resource "google_compute_instance" "demo-server" {
-  name         = "backend-server"
+  name         = "demo-server"
   machine_type = "e2-medium"
   #   zone         = "europe-west4-a"
   project = "sathi-codey"
